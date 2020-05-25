@@ -18,10 +18,6 @@ header ul li {
   padding: 0.3rem 0.4rem;
 }
 
-#showcase {
-  max-height: 400px;
-}
-
 #showcase .content h1 {
   font-size: 1.5rem;
 }
