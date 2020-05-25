@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap');
+
+:root {
+  --c-prime: #B3DCBE;
+  --c-second: #4D7181;
+  --c-blk: #2A2A2A;
+  --c-overlay: #0C0A3E70;
+  --c-overlay-l: #A0A0A030;
+
+  --max-width: 900px;
+  --header-height: 4rem;
+}
+
+/* * * * * * * * * *  - Reset - * * * * * * * * * */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {font-family: Arial, Helvetica, sans-serif;}
+ul {list-style: none;}
+a {text-decoration: none;}
+strong { color:var(--c-prime); font-weight: bolder; font-family: 'Audiowide', Arial, Helvetica, sans-serif;}
+/* * * * * * * * * *  - Utils - * * * * * * * * * */
+
+.text-prime {
+  font-family: 'Audiowide', Arial, Helvetica, sans-serif;
+  color: var(--c-prime);
+}
+
+.bg-round {
+  padding: 0.4rem;
+  border-radius: 50%;
+  background-color: var(--c-prime);
+  color: white;
+}
+
+.bg-dark {
+  background: var(--c-blk);
+  color: white;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: var(--c-prime);
+  color: white;
+  border-radius: 4px;
+  outline: none;
+  border: 2px solid white;
+  transition: all 0.25s linear;
+}
+
+.btn:hover {
+  background-color: var(--c-second);
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: var(--c-overlay);
+}
+
+.py-1 { padding: 1rem 0; }
+.py-2 { padding: 2rem 0; }
+.px-1 { padding: 0 2rem; }
+
+.mx-1 { margin: 0 1rem; }
+.mxr1 { margin: 0 0.5rem 0 0; }
+
+.w-85 { width: 85%;}
+
