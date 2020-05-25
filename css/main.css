@@ -1,6 +1,7 @@
 #showcase {
   background: url('../images/code1.jpg') no-repeat center center/cover;
   height: 100vh;
+  min-height: 600px;
 }
 
 #showcase .content {
